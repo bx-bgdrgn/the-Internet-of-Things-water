@@ -1,0 +1,8 @@
+
+<view class="container">
+  <view class="titlephoto"><image class="user-avatar" src="https://img2.baidu.com/it/u=3749751167,85227863&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=461" ></image></view>
+  <text class="user-name">Hello,亲爱的用户，点击下方按钮使用哦</text>
+  <view class="moto-container">
+    <text class="moto">下方是功能区</text>
+  </view>
+</view>

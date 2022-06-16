@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo01/demo01",
+    "pages/demo03/demo03",
+    "pages/demo04/demo04",
+    "pages/demo05/demo05",
+    "pages/start/start",
+    "pages/wifi_station/tianqi/tianqi"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ffc0cb",
+    "navigationBarTitleText": "欢迎使用智能盆栽监测系统",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+   {
+        "pagePath": "pages/index/index",
+        "text": "初始界面",
+        "iconPath": "icon/-1.png",
+        "selectedIconPath": "icon/1.png"
+   },
+   {
+      "pagePath": "pages/start/start",
+      "text": "实时状态查看",
+      "iconPath": "icon/-2.png",
+      "selectedIconPath": "icon/2.png"
+      },
+    {
+      "pagePath": "pages/demo03/demo03",
+      "text": "反馈",
+      "iconPath": "icon/-4.png",
+      "selectedIconPath": "icon/4.png"
+    },
+    {
+      "pagePath": "pages/demo01/demo01",
+      "text": "我",
+      "iconPath": "icon/-3.png",
+      "selectedIconPath": "icon/3.png"
+    } ],
+    "color": "#000000",
+    "selectedColor": "#ff6100",
+    "backgroundColor": "#ffc0cb",
+    "position": "bottom"  
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

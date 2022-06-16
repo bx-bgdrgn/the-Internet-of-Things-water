@@ -1,0 +1,18 @@
+<view class="titlephoto"><image style="width:780rpx;height:200rpx;"src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20181026%2Fd6f5ee2606ed4c0ba82d70139a35257a.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657966889&t=610907b54f2de1dedc583478d4b99ae5"></image></view>
+<form bindsubmit="onSubmit" bindreset="">
+<view class="container">
+    <view class='row text_box'>
+        <textarea class='text' name="content" value="{{content}}" placeholder="请输入您的反馈" />
+    </view>
+    <view class='row btn_box'>
+        <button formType="submit" class='submit'>提交反馈</button>
+    </view>
+    <view class='row version'>
+        <view class='txt'>版本1.0</view>
+        <view class='txt'>本小程序只适用于本小组信通导论大作业</view>
+        <view class='txt'>2021210225 张 瑞</view>
+        <view class='txt'>2021210226 张博鑫</view>
+    </view>
+</view>
+</form>
+

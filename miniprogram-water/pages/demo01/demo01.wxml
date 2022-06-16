@@ -1,0 +1,21 @@
+<view class="user-head">
+    <view class="center" bindtap = "userdata">
+        <view class="user-img">
+            <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgss0.baidu.com%2F-4o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fwh%253D450%252C600%2Fsign%3D0ce9b22a46086e066afd374f373857c2%2Fac6eddc451da81cb8dabadd65866d0160924315f.jpg&refer=http%3A%2F%2Fgss0.baidu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657969648&t=e6e01635a0de6eb8473f321cd5f64feb"/>
+        </view>
+        <view class="user-text">
+            <text class="text">{{userInfo.nickName}}</text>
+        </view>
+    </view>
+</view>
+
+<view class="list">
+    <view class="item" bindtap="order">
+        <image src="../../images/dingdan.png"/>注册账户
+        <text class="jump">〉</text>
+    </view>
+    <view class="item" bindtap="address">
+        <image src="../../images/ding.png"/>关于研究团队
+        <text class="jump">〉</text>
+    </view>
+</view>

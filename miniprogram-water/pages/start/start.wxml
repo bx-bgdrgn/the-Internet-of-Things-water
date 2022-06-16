@@ -1,0 +1,5 @@
+<!--start.wxml-->
+<view class="intro">
+ 如果担心你的植物，就点击下面的按钮看看状态吧
+</view>
+<button class="btn1" bindtap="navigate">获取实时监测信息</button>
